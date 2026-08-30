@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Muhammet Emin Yıldız — C#, C, Rust">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1a1533"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="sigfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".35"/>
+      <stop offset="45%" stop-color="#818cf8" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity=".95"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#halo)"/>
+
+  <g stroke="#ffffff" stroke-width="1" opacity=".035">
+    <path d="M0 40h1200M0 100h1200M0 160h1200M0 220h1200M0 280h1200"/>
+    <path d="M100 0v340M250 0v340M400 0v340M550 0v340M700 0v340M850 0v340M1000 0v340M1150 0v340"/>
+  </g>
+
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <text x="600" y="132" text-anchor="middle" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="66" font-weight="700" fill="#f1f5ff" letter-spacing="-1">Muhammet Emin Yıldız</text>
+  <text x="600" y="180" text-anchor="middle" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="25" fill="#9aa6c4">Networked game internals · embedded autonomy · runtimes small enough to audit</text>
+  <text x="600" y="222" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="17" fill="#5f6b8a" letter-spacing="5">C#  ·  C  ·  RUST</text>
+
+  <g fill="none" stroke="url(#sigfade)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 288 Q90 264 120 288 T180 288 T240 288 T300 288 T360 288 T414 288"/>
+    <path d="M414 288 L438 288 L438 262 L496 262 L496 288 L554 288 L554 314 L612 314 L612 288 L676 288"/>
+    <path d="M676 288 L748 266 L826 300 L904 260 L982 296 L1060 268 L1140 290"/>
+  </g>
+  <g fill="#0b0f1a" stroke="#c084fc" stroke-width="2.5">
+    <circle cx="748" cy="266" r="7"/><circle cx="826" cy="300" r="7"/><circle cx="904" cy="260" r="7"/>
+    <circle cx="982" cy="296" r="7"/><circle cx="1060" cy="268" r="7"/><circle cx="1140" cy="290" r="7"/>
+  </g>
+  <circle cx="904" cy="260" r="14" fill="none" stroke="#c084fc" stroke-width="1.2" opacity=".45"/>
+
+  <text x="60" y="322" font-family="Consolas,Menlo,monospace" font-size="13" fill="#4b5570" letter-spacing="2">SIGNAL</text>
+  <text x="440" y="322" font-family="Consolas,Menlo,monospace" font-size="13" fill="#4b5570" letter-spacing="2">STATE</text>
+  <text x="760" y="322" font-family="Consolas,Menlo,monospace" font-size="13" fill="#4b5570" letter-spacing="2">SYSTEM</text>
+</svg>
