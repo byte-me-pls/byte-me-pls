@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Muhammet Emin Yıldız — networked game internals, embedded autonomy, runtimes small enough to audit" width="100%" />
+  <img src="assets/hero.svg" alt="Muhammet Emin Yıldız: networked game internals, embedded autonomy, runtimes small enough to audit" width="100%" />
 </p>
 
 <p align="center">
@@ -21,13 +21,13 @@
 <table width="100%">
 <tr><td valign="top">
   <h3>🧪 <a href="https://github.com/byte-me-pls/stress-lab">stress-lab</a> &nbsp;<img src="https://img.shields.io/badge/Unity-000?style=flat-square&logo=unity" align="top" />&nbsp;<img src="https://img.shields.io/badge/FishNet-1f6feb?style=flat-square" align="top" /></h3>
-  <p><b>Multi-process load testing for FishNet games.</b> The Editor hosts; every bot is a separate headless build with its own transport, serializer, player loop and GC heap — so what comes back is what a second machine would actually have measured, not what a bot swarm sharing your Play Mode session can show you.</p>
+  <p><b>Multi-process load testing for FishNet games.</b> The Editor hosts; every bot is a separate headless build with its own transport, serializer, player loop and GC heap, so what comes back is what a second machine would actually have measured, not what a bot swarm sharing your Play Mode session can show you.</p>
   <table>
     <tr><th align="left">Largest bone jump a spectator saw</th><th align="right"></th></tr>
     <tr><td>Snapshot replay @ 20 Hz</td><td align="right"><b>0.26 m</b></td></tr>
     <tr><td>Observer-side simulation @ 5 Hz</td><td align="right"><b>16.45 m</b></td></tr>
   </table>
-  <p><sub>Same scene, same players, one changed setting. The regression only existed on machines watching <i>someone else</i> fall — so it survived every session of solo playtesting.</sub></p>
+  <p><sub>Same scene, same players, one changed setting. The regression only existed on machines watching <i>someone else</i> fall, so it survived every session of solo playtesting.</sub></p>
 </td></tr>
 </table>
 
@@ -44,7 +44,7 @@
 </td>
 <td width="50%" valign="top">
   <h4>🧰 <a href="https://github.com/byte-me-pls/meyzs-toolbag">meyzs-toolbag</a></h4>
-  <p>Every scattered editor utility — scene, transform, animation, validation — collected into one window instead of five menus.</p>
+  <p>Every scattered editor utility (scene, transform, animation, validation) collected into one window instead of five menus.</p>
   <p><code>C#</code> <code>Unity Editor</code></p>
 </td>
 </tr>
@@ -69,7 +69,7 @@
 </td>
 <td width="50%" valign="top">
   <h4>🦅 <a href="https://github.com/byte-me-pls/Lammergeier">Lammergeier</a></h4>
-  <p>An autonomous drone framework designed so the radio is a detail — Wi-Fi, LoRa, FPV or analog without reworking the stack above it.</p>
+  <p>An autonomous drone framework designed so the radio is a detail: Wi-Fi, LoRa, FPV or analog without reworking the stack above it.</p>
   <p><code>UAV</code> <code>embedded</code> <img src="https://img.shields.io/badge/design%20stage-orange?style=flat-square" align="top" /></p>
 </td>
 </tr>
@@ -83,7 +83,7 @@
 <tr>
 <td width="50%" valign="top">
   <h4>⚔️ <a href="https://github.com/byte-me-pls/TurkicGameJam-Game">Söz</a></h4>
-  <p>A Dede Korkut adventure where every fight is a different game — a bullet-hell duel or a card battle, played with whatever's in your backpack.</p>
+  <p>A Dede Korkut adventure where every fight is a different game: a bullet-hell duel or a card battle, played with whatever's in your backpack.</p>
   <p><sub>Turkic Game Jam 2025</sub></p>
 </td>
 <td width="50%" valign="top">
@@ -100,7 +100,7 @@
 </td>
 <td width="50%" valign="top">
   <h4>🛣 <a href="https://github.com/byte-me-pls/ankarajam">Road Trip</a></h4>
-  <p>A driving game about remembering. Endless procedural road, roadside events, and a radio that starts silent — you have to turn it up yourself.</p>
+  <p>A driving game about remembering. Endless procedural road, roadside events, and a radio that starts silent, so you have to turn it up yourself.</p>
   <p><sub>Ankara Game Jam</sub></p>
 </td>
 </tr>
