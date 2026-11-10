@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" role="presentation">
+<style>
+.ring{fill:none;stroke:#bc4c00;stroke-width:1.2;transform-box:fill-box;transform-origin:center;animation:out 2.4s ease-out infinite}
+@keyframes out{0%{transform:scale(.45);opacity:.9}75%,100%{transform:scale(1);opacity:0}}
+@media (prefers-reduced-motion:reduce){.ring{display:none}}
+</style>
+<circle class="ring" cx="8" cy="8" r="7"/>
+<circle cx="8" cy="8" r="3" fill="#bc4c00"/>
+</svg>

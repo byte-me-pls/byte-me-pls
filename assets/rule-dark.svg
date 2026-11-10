@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 9" width="880" height="9" role="presentation">
+<style>
+.dash{fill:#f0883e;animation:run 9s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes run{0%{transform:translateX(0);opacity:0}8%{opacity:1}62%{opacity:1}70%,100%{transform:translateX(848px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.dash{display:none}}
+</style>
+<rect x="0" y="4" width="880" height="1" fill="#7d8590" opacity=".28"/>
+<rect class="dash" x="0" y="3.5" width="32" height="2" rx="1"/>
+</svg>
